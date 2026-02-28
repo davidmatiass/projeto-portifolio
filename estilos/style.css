@@ -118,11 +118,12 @@ div#social {
 
 div#social a {
   color: var(--destaque);
-  transition: color 0.5s;
+  transition: color 0.5s, transform 0.3s;
 }
 
 div#social a:hover {
   color: var(--destaque-inverso);
+  transform: translate(-3px, -3px);
 }
 
 section#detalhes {
@@ -204,7 +205,7 @@ article h2 {
   border-radius: 8px;
   border-left: 5px solid var(--destaque-inverso);
   padding: 15px;
-  transition: border-width o.5s, border-color 0.5s;
+  transition: border-width 0.5s, border-color 0.5s;
 }
 
 #formacao-conteiner .curso:hover {
@@ -285,7 +286,7 @@ footer a:hover {
     top: 65px;
   }
 
-  section#detalhes |{
+  section#detalhes {
     grid-column: 3 / 4;
   }
 
